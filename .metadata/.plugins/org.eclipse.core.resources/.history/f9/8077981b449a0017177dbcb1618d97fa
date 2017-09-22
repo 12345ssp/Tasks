@@ -1,0 +1,5 @@
+package com.shravani.student.model;
+
+public class Student {
+
+}

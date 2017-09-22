@@ -1,0 +1,55 @@
+package Com.Sravani.Dto;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Manager {
+@Id	
+	private int id;
+    private FlowerShop shop;
+    private String firstName;
+    private String lastName;
+    private String fullName;
+    private Date hireDate;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public FlowerShop getShop() {
+		return shop;
+	}
+	public void setShop(FlowerShop shop) {
+		this.shop = shop;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getFullName() {
+		return fullName;
+	}
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+	public Date getHireDate() {
+		return hireDate;
+	}
+	public void setHireDate(Date hireDate) {
+		this.hireDate = hireDate;
+	}
+     
+
+}
